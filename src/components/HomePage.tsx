@@ -93,13 +93,13 @@ const HomePage = () => {
     <div className="flex justify-center items-center">
       <div className="flex flex-col md:flex-row justify-between w-full max-w-5xl text-center md:text-left">
         <div className="mb-6 md:mb-0">
-          <h3 className="text-3xl font-bold opacity-0 translate-y-8 transition-all duration-1000 delay-300 animate__animated animate__fadeIn animate__delay-1s text-white">
+          <h3 className="text-3xl font-bold opacity-0 translate-y-8 transition-all duration-1000 delay-300 animate__animated animate__fadeIn animate__delay-1s" style={{ color: "#ffa100" }}>
             <span className="counter" data-target="100">+100</span> Clientes Atendidos
           </h3>
         </div>
         <div className="mb-6 md:mb-0">
-          <h3 className="text-3xl font-bold opacity-0 translate-y-8 transition-all duration-1000 delay-500 animate__animated animate__fadeIn animate__delay-2s text-white">
-            <span className="counter" data-target="50000">+5</span> Anos de Experiência
+          <h3 className="text-3xl font-bold opacity-0 translate-y-8 transition-all duration-1000 delay-500 animate__animated animate__fadeIn animate__delay-2s" style={{ color: "#ffa100" }}>
+            <span className="counter" data-target="50000">+50</span> Anos de Experiência
           </h3>
         </div>
       </div>
@@ -131,6 +131,7 @@ const HomePage = () => {
     }
   `}</style>
 </section>
+
 
 
 
