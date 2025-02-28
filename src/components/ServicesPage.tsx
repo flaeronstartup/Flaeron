@@ -152,7 +152,7 @@ const ServicesPage = () => {
       {/* Process */}
       <section className="py-24 bg-gray-50">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-light mb-12 text-center">Our Process</h2>
+          <h2 className="text-3xl font-light mb-12 text-center">Nosso Processo</h2>
           <div 
             ref={processRef}
             className="max-w-4xl mx-auto opacity-0 transition-all duration-1000 translate-y-8 delay-500"
@@ -166,9 +166,9 @@ const ServicesPage = () => {
                 {/* Item 1 */}
                 <div className="relative flex flex-col md:flex-row items-center">
                   <div className="flex-1 md:pr-8 md:text-right mb-4 md:mb-0">
-                    <h3 className="text-xl font-medium mb-2">Discovery</h3>
+                    <h3 className="text-xl font-medium mb-2">Descoberta - Entendendo Seu Negócio</h3>
                     <p className="text-gray-700">
-                      We begin by understanding your business, goals, and challenges through in-depth research and stakeholder interviews.
+                    Analisamos sua empresa, seus desafios e objetivos para identificar a melhor solução, seja um site, identidade visual ou estratégia de marketing.
                     </p>
                   </div>
                   <div className="w-8 h-8 bg-black rounded-full z-10 flex items-center justify-center">
@@ -184,9 +184,9 @@ const ServicesPage = () => {
                     <span className="text-white text-sm">2</span>
                   </div>
                   <div className="flex-1 md:pl-8 md:text-left order-3 md:order-3">
-                    <h3 className="text-xl font-medium mb-2">Strategy</h3>
+                    <h3 className="text-xl font-medium mb-2">Estratégia - Definição do Caminho Ideal</h3>
                     <p className="text-gray-700">
-                      We develop a comprehensive plan that outlines the approach, technologies, and timeline for your project.
+                    Criamos um plano personalizado, alinhando tecnologia, design e marketing para alcançar resultados concretos.
                     </p>
                   </div>
                 </div>
@@ -194,9 +194,10 @@ const ServicesPage = () => {
                 {/* Item 3 */}
                 <div className="relative flex flex-col md:flex-row items-center">
                   <div className="flex-1 md:pr-8 md:text-right mb-4 md:mb-0">
-                    <h3 className="text-xl font-medium mb-2">Design & Development</h3>
+                    <h3 className="text-xl font-medium mb-2">Execução - Desenvolvimento ou Marketing em Ação</h3>
                     <p className="text-gray-700">
-                      Our team creates and builds your solution with a focus on quality, usability, and performance.
+                    <strong>Se for um site ou identidade visual:</strong> Criamos e desenvolvemos sua solução com foco em usabilidade e impacto.<br/>
+                    <strong>Se for marketing:</strong> Implementamos campanhas estratégicas para atrair e converter clientes.
                     </p>
                   </div>
                   <div className="w-8 h-8 bg-black rounded-full z-10 flex items-center justify-center">
@@ -212,9 +213,9 @@ const ServicesPage = () => {
                     <span className="text-white text-sm">4</span>
                   </div>
                   <div className="flex-1 md:pl-8 md:text-left order-3 md:order-3">
-                    <h3 className="text-xl font-medium mb-2">Testing & Refinement</h3>
+                    <h3 className="text-xl font-medium mb-2">Testes & Otimização - Refinando para Resultados</h3>
                     <p className="text-gray-700">
-                      We rigorously test and optimize your solution to ensure it meets the highest standards of quality and performance.
+                    Analisamos o desempenho do projeto ou campanha e ajustamos para garantir a máxima eficiência.
                     </p>
                   </div>
                 </div>
@@ -222,9 +223,9 @@ const ServicesPage = () => {
                 {/* Item 5 */}
                 <div className="relative flex flex-col md:flex-row items-center">
                   <div className="flex-1 md:pr-8 md:text-right mb-4 md:mb-0">
-                    <h3 className="text-xl font-medium mb-2">Launch & Support</h3>
+                    <h3 className="text-xl font-medium mb-2">Lançamento & Crescimento - Suporte Contínuo</h3>
                     <p className="text-gray-700">
-                      We deploy your solution and provide ongoing support to ensure its continued success and evolution.
+                    Colocamos sua solução no ar e acompanhamos seu crescimento, garantindo que ela continue gerando resultados.
                     </p>
                   </div>
                   <div className="w-8 h-8 bg-black rounded-full z-10 flex items-center justify-center">
@@ -241,15 +242,15 @@ const ServicesPage = () => {
       {/* CTA */}
       <section className="py-24 bg-black text-white">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-4xl font-light mb-8">Ready to start your project?</h2>
+          <h2 className="text-4xl font-light mb-8">Pronto para iniciar seu projeto?</h2>
           <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
-            Contact us today to discuss how we can help bring your vision to life.
+          Contate-nos para discutirmos como podemos te ajudar a aumentar seus lucros.
           </p>
           <Link 
             to="/contact" 
             className="inline-block px-8 py-3 border-2 border-white hover:bg-white hover:text-black transition-all duration-300"
           >
-            Get in touch
+            Entre em contato conosco
           </Link>
         </div>
       </section>
