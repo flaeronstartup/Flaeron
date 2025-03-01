@@ -63,13 +63,13 @@ const HomePage = () => {
               ref={titleRef}
               className="text-5xl md:text-7xl font-light mb-8 opacity-0 transition-all duration-1000 translate-y-8 delay-300"
             >
-              Conectando inovação e dados para impulsionar seu negócio.
+              Transforme sua visão em resultados extraordinários
             </h1>
             <p
               ref={descriptionRef}
               className="text-xl md:text-2xl text-gray-700 mb-12 max-w-2xl opacity-0 transition-all duration-1000 translate-y-8 delay-500"
             >
-              Unimos análise de dados e criatividade para desenvolver soluções digitais que impulsionam o seu negócio.
+              Unimos análise de dados e criatividade para desenvolver soluções digitais que impulsionam seu negócio ao próximo nível. Aumente suas vendas, conquiste mais clientes e destaque-se da concorrência.
             </p>
             <div
               ref={ctaRef}
@@ -99,7 +99,7 @@ const HomePage = () => {
         </div>
         <div className="mb-6 md:mb-0">
           <h3 className="text-3xl font-bold opacity-0 translate-y-8 transition-all duration-1000 delay-500 animate__animated animate__fadeIn animate__delay-2s" style={{ color: "#ffa100" }}>
-            <span className="counter" data-target="50000">+50</span> Anos de Experiência
+            <span className="counter" data-target="50000">+5</span> Anos de Experiência
           </h3>
         </div>
       </div>
@@ -226,7 +226,7 @@ const HomePage = () => {
             to="/contact" 
             className="inline-block px-8 py-3 border-2 border-white hover:bg-white hover:text-black transition-all duration-300"
           >
-            Falar com um especialista
+            Falar com um Especialista
           </Link>
         </div>
       </section>

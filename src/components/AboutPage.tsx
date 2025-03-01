@@ -1,6 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import co from '../assets/co.png'
+import cto from '../assets/cto.png'
+
 
 const AboutPage = () => {
   const headerRef = useRef<HTMLDivElement>(null);
@@ -40,10 +43,9 @@ const AboutPage = () => {
             ref={headerRef}
             className="max-w-4xl mx-auto text-center opacity-0 transition-all duration-1000 translate-y-8"
           >
-            <h1 className="text-5xl font-light mb-6">About Flaeron</h1>
+            <h1 className="text-5xl font-light mb-6">Sobre a Flaeron</h1>
             <p className="text-xl text-gray-700">
-              We are a team of visionaries, designers, and engineers dedicated to creating 
-              technology that makes a difference.
+            Somos uma equipe apaixonada de criadores, pensadores e solucionadores de problemas, dedicada a desenvolver soluções que moldam o futuro.
             </p>
           </div>
         </div>
@@ -57,21 +59,18 @@ const AboutPage = () => {
               ref={contentRef}
               className="opacity-0 transition-all duration-1000 translate-x-8 delay-300"
             >
-              <h2 className="text-3xl font-light mb-6">Our Story</h2>
+              <h2 className="text-3xl font-light mb-6">Nossa História</h2>
               <p className="text-gray-700 mb-6">
-                Founded in 2020, Flaeron began with a simple mission: to create technology that enhances human experiences. 
-                What started as a small team of passionate innovators has grown into a global company at the forefront of 
-                technological advancement.
+              Fundada com a visão de inovar e transformar o mundo, começamos pequenos, movidos pela crença de que a tecnologia deve sempre ter um propósito. Com o tempo, evoluímos para uma empresa dinâmica na vanguarda do progresso, sempre em busca de impactar positivamente cada indústria que tocamos.
               </p>
               <p className="text-gray-700 mb-6">
-                Our journey has been defined by a relentless pursuit of excellence, a commitment to ethical innovation, 
-                and a deep understanding of how technology can transform industries and improve lives.
+              Nossa trajetória é construída sobre a base de criatividade, excelência e uma compreensão profunda de como a inovação bem pensada pode elevar experiências e mudar vidas.
               </p>
               <p className="text-gray-700 mb-8">
-                Today, we continue to push boundaries, challenge conventions, and create solutions that define the future.
+              Olhamos para o futuro com o compromisso de desafiar o convencional, superar os limites do possível e criar soluções que realmente façam a diferença.
               </p>
               <Link to="/services" className="group flex items-center text-lg border-b-2 border-black pb-1 hover:pr-4 transition-all">
-                Explore our services
+              Explore nossos serviços
                 <ArrowRight className="ml-2 group-hover:ml-4 transition-all" size={20} />
               </Link>
             </div>
@@ -91,60 +90,49 @@ const AboutPage = () => {
       </section>
 
       {/* Team */}
-      <section className="py-24 bg-gray-50">
-        <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-light mb-12 text-center">Our Leadership Team</h2>
-          <div 
-            ref={teamRef}
-            className="grid grid-cols-1 md:grid-cols-3 gap-12 opacity-0 transition-all duration-1000 translate-y-8 delay-300"
-          >
-            <div className="text-center">
-              <div className="w-48 h-48 mx-auto mb-6 overflow-hidden rounded-full">
-                <img 
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
-                  alt="CEO portrait" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-medium mb-2">Alexander Chen</h3>
-              <p className="text-gray-500 mb-4">Founder & CEO</p>
-              <p className="text-gray-700">
-                Visionary leader with 15+ years of experience in technology innovation.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-48 h-48 mx-auto mb-6 overflow-hidden rounded-full">
-                <img 
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
-                  alt="CTO portrait" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-medium mb-2">Sophia Martinez</h3>
-              <p className="text-gray-500 mb-4">Chief Technology Officer</p>
-              <p className="text-gray-700">
-                Engineering genius with a passion for creating elegant technical solutions.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-48 h-48 mx-auto mb-6 overflow-hidden rounded-full">
-                <img 
-                  src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
-                  alt="CDO portrait" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-medium mb-2">Marcus Johnson</h3>
-              <p className="text-gray-500 mb-4">Chief Design Officer</p>
-              <p className="text-gray-700">
-                Award-winning designer focused on creating intuitive user experiences.
-              </p>
-            </div>
-          </div>
+      <section className="py-20 bg-gray-50">
+  <div className="container mx-auto px-6 flex justify-center items-center">
+    <div 
+      ref={teamRef}
+      className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12 opacity-0 transition-all duration-1000 translate-y-8 delay-300"
+    >
+      <div className="text-center">
+        <div className="w-48 h-48 mx-auto mb-6 overflow-hidden rounded-full">
+          <img 
+            src={co} // Imagem do CEO
+            alt="CEO portrait" 
+            className="w-full h-full object-cover"
+          />
         </div>
-      </section>
+        <h3 className="text-xl font-medium mb-2">João Pedro Saraiva</h3>
+        <p className="text-gray-500 mb-4">CEO</p>
+        <p className="text-gray-700">
+          João Pedro é o líder por trás da visão da empresa, sempre buscando novas maneiras de transformar ideias em soluções que realmente fazem a diferença.
+        </p>
+      </div>
+      <div className="text-center">
+        <div className="w-48 h-48 mx-auto mb-6 overflow-hidden rounded-full">
+          <img 
+            src={cto} // Imagem do CTO
+            alt="CTO portrait" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <h3 className="text-xl font-medium mb-2">Bruno Alves</h3>
+        <p className="text-gray-500 mb-4">CTO</p>
+        <p className="text-gray-700">
+          Bruno é o responsável pelas soluções técnicas da empresa, com uma verdadeira paixão por criar soluções simples e eficazes. Ele garante que a tecnologia esteja sempre alinhada com as necessidades reais do negócio, transformando ideias em realidade de maneira prática e inovadora.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
-      {/* Values */}
+
+
+
+
+      {/* Values 
       <section className="py-24">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-light mb-12 text-center">Our Core Values</h2>
@@ -175,7 +163,7 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </main>
   );
 };

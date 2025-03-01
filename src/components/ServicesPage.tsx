@@ -40,8 +40,8 @@ const ServicesPage = () => {
             ref={headerRef}
             className="max-w-4xl mx-auto text-center opacity-0 transition-all duration-1000 translate-y-8"
           >
-            <h1 className="text-5xl font-light mb-6">Soluções tecnológicas feitas para crescer o seu negócio.</h1>
-            <p className="text-xl text-gray-700">Maximizamos o impacto de cada clique, garantindo que cada um traga valor, engajamento e crescimento para o seu negócio.
+            <h1 className="text-5xl font-light mb-6">Soluções completas para impulsionar seu negócio</h1>
+            <p className="text-xl text-gray-700">Oferecemos um conjunto abrangente de serviços digitais para transformar sua presença online e maximizar seus resultados.
             </p>
           </div>
         </div>
@@ -155,82 +155,31 @@ const ServicesPage = () => {
         <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-[#ffa100] transform md:translate-x-px hidden md:block"></div>
         
         {/* Timeline items */}
-        <div className="space-y-12 md:space-y-24">
-          {/* Item 1 */}
-          <div className="relative flex flex-col md:flex-row items-center">
-            <div className="flex-1 md:pr-8 md:text-right mb-4 md:mb-0">
-              <h3 className="text-xl font-medium mb-2">Descoberta - Entendendo Seu Negócio</h3>
-              <p className="text-gray-700">
-                Analisamos sua empresa, seus desafios e objetivos para identificar a melhor solução, seja um site, identidade visual ou estratégia de marketing.
-              </p>
+        <div className="space-y-8 md:space-y-16">
+          {[ 
+            { num: "1", title: "Reunião Estratégica", text: "Primeiro, marcamos uma reunião para alinhar suas expectativas e objetivos. Entendemos profundamente seu negócio para criar uma solução sob medida." },
+            { num: "2", title: "Planejamento & Conceito", text: "Elaboramos um plano detalhado para que você possa ter uma visão clara do projeto antes da implementação. Isso garante que cada detalhe esteja alinhado com suas expectativas." },
+            { num: "3", title: "Execução & Acompanhamento", text: "Durante a realização do projeto, um profissional dedicado acompanha cada etapa, garantindo que tudo seja feito com qualidade e alinhado às suas necessidades. Você recebe atualizações constantes para acompanhar o progresso." },
+            { num: "4", title: "Entrega & Acompanhamento Pós-Projeto", text: "Concluímos a entrega do projeto, garantindo que tudo esteja funcionando conforme o planejado. Para aqueles que optam, oferecemos serviços complementares, como a gestão de redes sociais, ou ainda o suporte contínuo para garantir que sua solução continue atendendo suas necessidades." },
+          ].map((step, index) => (
+            <div key={index} className={`relative flex flex-col md:flex-row items-center ${index % 2 === 0 ? '' : 'md:flex-row-reverse'}`}>
+              {/* Desktop: Alternância dos lados */}
+              <div className="flex-1 md:px-6 text-center md:text-left">
+                <h3 className="text-xl font-medium mb-2">{step.title}</h3>
+                <p className="text-gray-700">{step.text}</p>
+              </div>
+              <div className="w-8 h-8 bg-[#ffa100] rounded-full flex items-center justify-center">
+                <span className="text-white text-sm">{step.num}</span>
+              </div>
+              <div className="flex-1 md:px-6 text-center md:text-right"></div>
             </div>
-            <div className="w-8 h-8 bg-[#ffa100] rounded-full z-10 flex items-center justify-center">
-              <span className="text-white text-sm">1</span>
-            </div>
-            <div className="flex-1 md:pl-8 md:text-left"></div>
-          </div>
-          
-          {/* Item 2 */}
-          <div className="relative flex flex-col md:flex-row items-center">
-            <div className="flex-1 md:pr-8 md:text-right order-1 md:order-1 mb-4 md:mb-0"></div>
-            <div className="w-8 h-8 bg-[#ffa100] rounded-full z-10 flex items-center justify-center order-2 md:order-2">
-              <span className="text-white text-sm">2</span>
-            </div>
-            <div className="flex-1 md:pl-8 md:text-left order-3 md:order-3">
-              <h3 className="text-xl font-medium mb-2">Estratégia - Definição do Caminho Ideal</h3>
-              <p className="text-gray-700">
-                Criamos um plano personalizado, alinhando tecnologia, design e marketing para alcançar resultados concretos.
-              </p>
-            </div>
-          </div>
-          
-          {/* Item 3 */}
-          <div className="relative flex flex-col md:flex-row items-center">
-            <div className="flex-1 md:pr-8 md:text-right mb-4 md:mb-0">
-              <h3 className="text-xl font-medium mb-2">Execução - Desenvolvimento ou Marketing em Ação</h3>
-              <p className="text-gray-700">
-                <strong>Se for um site ou identidade visual:</strong> Criamos e desenvolvemos sua solução com foco em usabilidade e impacto.<br/>
-                <strong>Se for marketing:</strong> Implementamos campanhas estratégicas para atrair e converter clientes.
-              </p>
-            </div>
-            <div className="w-8 h-8 bg-[#ffa100] rounded-full z-10 flex items-center justify-center">
-              <span className="text-white text-sm">3</span>
-            </div>
-            <div className="flex-1 md:pl-8 md:text-left"></div>
-          </div>
-          
-          {/* Item 4 */}
-          <div className="relative flex flex-col md:flex-row items-center">
-            <div className="flex-1 md:pr-8 md:text-right order-1 md:order-1 mb-4 md:mb-0"></div>
-            <div className="w-8 h-8 bg-[#ffa100] rounded-full z-10 flex items-center justify-center order-2 md:order-2">
-              <span className="text-white text-sm">4</span>
-            </div>
-            <div className="flex-1 md:pl-8 md:text-left order-3 md:order-3">
-              <h3 className="text-xl font-medium mb-2">Testes & Otimização - Refinando para Resultados</h3>
-              <p className="text-gray-700">
-                Analisamos o desempenho do projeto ou campanha e ajustamos para garantir a máxima eficiência.
-              </p>
-            </div>
-          </div>
-          
-          {/* Item 5 */}
-          <div className="relative flex flex-col md:flex-row items-center">
-            <div className="flex-1 md:pr-8 md:text-right mb-4 md:mb-0">
-              <h3 className="text-xl font-medium mb-2">Lançamento & Crescimento - Suporte Contínuo</h3>
-              <p className="text-gray-700">
-                Colocamos sua solução no ar e acompanhamos seu crescimento, garantindo que ela continue gerando resultados.
-              </p>
-            </div>
-            <div className="w-8 h-8 bg-[#ffa100] rounded-full z-10 flex items-center justify-center">
-              <span className="text-white text-sm">5</span>
-            </div>
-            <div className="flex-1 md:pl-8 md:text-left"></div>
-          </div>
+          ))}
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 
 

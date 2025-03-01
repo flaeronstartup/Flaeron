@@ -172,7 +172,7 @@ const ProjectsPage = () => {
         </div>
       </section>
 
-      {/* CTA */}
+      {/* CTA */}n
       <section className="py-24 bg-black text-white">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-light mb-8">Deseja impulsionar sua marca ou negócio?</h2>
