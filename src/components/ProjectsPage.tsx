@@ -17,7 +17,7 @@ const projects = [
     image: project1,
     tags: ['Enterprise', 'Finance', 'Cloud'],
     link: 'https://www.advocaciaraiznapratica.com.br/'
-  },
+  },{/* Header
   {
     id: 2,
     title: 'PMT Cabine Primária',
@@ -26,7 +26,7 @@ const projects = [
     image: project2,
     tags: ['Healthcare', 'Analytics', 'AI'],
     link: 'https://www.pmtcabineprimaria.com.br/'
-  },
+  }, */}
   {
     id: 3,
     title: 'I A Sevice Solar',
