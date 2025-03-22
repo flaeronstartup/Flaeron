@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import project1 from '../assets/project1.png';
-import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
 import project4 from '../assets/project4.png';
 import project5 from '../assets/project5.png';
@@ -17,16 +16,7 @@ const projects = [
     image: project1,
     tags: ['Enterprise', 'Finance', 'Cloud'],
     link: 'https://www.advocaciaraiznapratica.com.br/'
-  },{/* Header
-  {
-    id: 2,
-    title: 'PMT Cabine Primária',
-    category: 'AI & Machine Learning',
-    description: 'Desenvolvemos o site da PMT Cabine Primária, seguindo a identidade visual da marca. O projeto envolveu a criação de um site funcional e atraente, alinhado à sua identidade, para fortalecer a presença online e facilitar a interação com os clientes.',
-    image: project2,
-    tags: ['Healthcare', 'Analytics', 'AI'],
-    link: 'https://www.pmtcabineprimaria.com.br/'
-  }, */}
+  },
   {
     id: 3,
     title: 'I A Sevice Solar',
