@@ -49,20 +49,12 @@ function App() {
               </div>
               <div className="flex space-x-4">
                 {/* WhatsApp Icon */}
-                <a href="https://wa.me/yourwhatsapplink" className="text-gray-500 hover:text-black transition-colors" aria-label="WhatsApp">
+                <a target='blank' href="https://api.whatsapp.com/send/?phone=5577991488220&text=Ol%C3%A1%2C+tudo+bem%3F&type=phone_number&app_absent=0" className="text-gray-500 hover:text-black transition-colors" aria-label="WhatsApp">
                   <Phone size={20} />
                 </a>
                 {/* Instagram Icon */}
-                <a href="https://www.instagram.com/yourinstagram/" className="text-gray-500 hover:text-black transition-colors" aria-label="Instagram">
+                <a target='blank' href="https://www.instagram.com/flaeron/" className="text-gray-500 hover:text-black transition-colors" aria-label="Instagram">
                   <Instagram size={20} />
-                </a>
-                {/* LinkedIn Icon */}
-                <a href="https://www.linkedin.com/in/yourlinkedin/" className="text-gray-500 hover:text-black transition-colors" aria-label="LinkedIn">
-                  <Linkedin size={20} />
-                </a>
-                {/* Email Icon */}
-                <a href="mailto:contact@flaeron.com" className="text-gray-500 hover:text-black transition-colors" aria-label="Email">
-                  <Mail size={20} />
                 </a>
               </div>
             </div>

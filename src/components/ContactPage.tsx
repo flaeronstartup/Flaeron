@@ -111,7 +111,8 @@ const ContactPage = () => {
               <h2 className="text-3xl font-light mb-8">Envie-nos uma mensagem</h2>
               <form 
                 ref={formRef}
-                onSubmit={handleSubmit}
+                action="https://formspree.io/f/xwplnlor"  // URL do Formspree
+                method="POST"
                 className="opacity-0 transition-all duration-1000 translate-y-8 delay-300"
               >
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
@@ -259,7 +260,6 @@ const ContactPage = () => {
         </div>
       </section>
 
-      {/* Map */}
       <section className="py-0">
   <div className="relative overflow-hidden w-full" style={{ height: '100vh' }}>
     <iframe 
@@ -270,8 +270,6 @@ const ContactPage = () => {
     />
   </div>
 </section>
-
-
 
     </main>
   );

@@ -55,86 +55,42 @@ const ServicesPage = () => {
       className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8 opacity-0 transition-all duration-1000 translate-y-8 delay-300"
     >
       <div className="p-6 border border-gray-100 hover:border-gray-300 transition-all hover:shadow-lg hover:-translate-y-1 duration-300">
-        <h3 className="text-xl font-light mb-4">Transformação Digital para o Futuro dos Negócios</h3>
-        <p className="text-gray-700 mb-4">
-          Ajudamos sua empresa a evoluir com a integração da tecnologia digital, transformando operações e criando novas formas de agregar valor aos seus clientes.
-        </p>
+        <h3 className="text-xl font-light mb-4">Transforme Seu Negócio com Tecnologia</h3>
+        <p className="text-gray-700 mb-4">Impulsionamos sua empresa com soluções digitais inovadoras e automação inteligente.</p>
         <ul className="text-gray-700 mb-4 space-y-2">
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span><strong>Desenvolvimento de Roteiros Estratégicos Digitais:</strong> Planejamos o caminho da sua empresa rumo à transformação digital.</span>
-          </li>
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span><strong>Criação de Sites e Sistemas Personalizados:</strong> Desenvolvemos soluções digitais sob medida.</span>
-          </li>
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span><strong>Automação e Otimização de Processos:</strong> Automatizamos processos para aumentar a produtividade.</span>
-          </li>
+          <li><strong>Estratégia Digital:</strong> Roteiros personalizados para a transformação digital.</li>
+          <li><strong>Desenvolvimento Personalizado:</strong> Sites e sistemas sob medida.</li>
+          <li><strong>Automação de Processos:</strong> Mais eficiência, menos trabalho manual.</li>
         </ul>
       </div>
 
       <div className="p-6 border border-gray-100 hover:border-gray-300 transition-all hover:shadow-lg hover:-translate-y-1 duration-300">
-        <h3 className="text-xl font-light mb-4">Design para Impacto Duradouro</h3>
-        <p className="text-gray-700 mb-4">
-          Transformamos a identidade visual da sua marca com soluções criativas e elegantes, projetadas para destacar sua presença no mercado.
-        </p>
+        <h3 className="text-xl font-light mb-4">Design Que Deixa Sua Marca</h3>
+        <p className="text-gray-700 mb-4">Criamos identidades visuais marcantes que destacam seu negócio.</p>
         <ul className="text-gray-700 mb-4 space-y-2">
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span><strong>Criação de Identidade Visual:</strong> Desenvolvemos logotipos e paletas de cores que refletem a essência da sua marca.</span>
-          </li>
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span><strong>Redesign e Rebranding:</strong> Renovamos a identidade visual de sua marca.</span>
-          </li>
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span><strong>Design de Materiais Promocionais:</strong> Criamos materiais visuais impactantes.</span>
-          </li>
+          <li><strong>Identidade Visual:</strong> Logotipos e paletas únicas.</li>
+          <li><strong>Rebranding:</strong> Renovamos sua marca com estilo.</li>
+          <li><strong>Materiais Promocionais:</strong> Design impactante para divulgação.</li>
         </ul>
       </div>
 
       <div className="p-6 border border-gray-100 hover:border-gray-300 transition-all hover:shadow-lg hover:-translate-y-1 duration-300">
-        <h3 className="text-xl font-light mb-4">Gestão de Redes Sociais para Marcas que Conectam</h3>
-        <p className="text-gray-700 mb-4">
-          Potencializamos sua presença online com estratégias de conteúdo personalizadas e gestão eficiente das suas redes sociais.
-        </p>
+        <h3 className="text-xl font-light mb-4">Conecte-se com seu Público</h3>
+        <p className="text-gray-700 mb-4">Gerenciamos suas redes sociais com estratégias que geram engajamento.</p>
         <ul className="text-gray-700 mb-4 space-y-2">
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span><strong>Gestão de Redes Sociais:</strong> Administramos suas contas nas principais plataformas.</span>
-          </li>
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span><strong>Estratégias de Crescimento Orgânico:</strong> Planejamos ações para aumentar seu engajamento.</span>
-          </li>
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span><strong>Criação de Conteúdo Visual e Textual:</strong> Produzimos posts e vídeos criativos.</span>
-          </li>
+          <li><strong>Gestão de Redes:</strong> Administramos suas plataformas com excelência.</li>
+          <li><strong>Crescimento Orgânico:</strong> Estratégias para aumentar sua audiência.</li>
+          <li><strong>Conteúdo Criativo:</strong> Posts e vídeos autênticos e envolventes.</li>
         </ul>
       </div>
 
       <div className="p-6 border border-gray-100 hover:border-gray-300 transition-all hover:shadow-lg hover:-translate-y-1 duration-300">
-        <h3 className="text-xl font-light mb-4">Marketing Digital Estratégico para Crescimento Exponencial</h3>
-        <p className="text-gray-700 mb-4">
-          Transformamos suas metas de negócios em resultados reais com estratégias de marketing digital inteligentes e criativas.
-        </p>
+        <h3 className="text-xl font-light mb-4">Marketing Digital que Gera Resultados</h3>
+        <p className="text-gray-700 mb-4">Transformamos suas metas em crescimento real com estratégias inteligentes.</p>
         <ul className="text-gray-700 mb-4 space-y-2">
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span><strong>Estratégias de Marketing Digital Personalizadas:</strong> Desenvolvemos planos de marketing digital sob medida.</span>
-          </li>
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span><strong>Gestão de Campanhas de Tráfego Pago:</strong> Criamos campanhas de anúncios otimizadas.</span>
-          </li>
-          <li className="flex items-start">
-            <span className="mr-2">•</span>
-            <span><strong>Inbound Marketing:</strong> Criamos estratégias de atração e nutrição de leads.</span>
-          </li>
+          <li><strong>Planejamento Personalizado:</strong> Estratégias sob medida para seu negócio.</li>
+          <li><strong>Tráfego Pago:</strong> Anúncios otimizados para máxima performance.</li>
+          <li><strong>Inbound Marketing:</strong> Atração e conversão de leads qualificados.</li>
         </ul>
       </div>
     </div>
@@ -190,8 +146,8 @@ const ServicesPage = () => {
           <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
           Contate-nos para discutirmos como podemos te ajudar a aumentar seus lucros.
           </p>
-          <Link 
-            to="/contact" 
+          <Link target='blank'
+            to="https://api.whatsapp.com/send/?phone=5577991488220&text=Ol%C3%A1%2C+tudo+bem%3F&type=phone_number&app_absent=0" 
             className="inline-block px-8 py-3 border-2 border-white hover:bg-white hover:text-black transition-all duration-300"
           >
             Entre em contato conosco

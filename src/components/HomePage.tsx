@@ -75,7 +75,7 @@ const HomePage = () => {
               ref={ctaRef}
               className="opacity-0 transition-all duration-1000 translate-y-8 delay-700"
             >
-              <Link to="/about" className="group flex items-center text-lg border-b-2 border-black pb-1 hover:pr-4 transition-all">
+              <Link target='blank' to="https://api.whatsapp.com/send/?phone=5577991488220&text=Ol%C3%A1%2C+tudo+bem%3F&type=phone_number&app_absent=0" className="group flex items-center text-lg border-b-2 border-black pb-1 hover:pr-4 transition-all">
               Começe sua transformação
                 <ArrowRight className="ml-2 group-hover:ml-4 transition-all" size={20} />
               </Link>
@@ -93,12 +93,12 @@ const HomePage = () => {
     <div className="flex justify-center items-center">
       <div className="flex flex-col md:flex-row justify-between w-full max-w-5xl text-center md:text-left">
         <div className="mb-6 md:mb-0">
-          <h3 className="text-3xl font-bold opacity-0 translate-y-8 transition-all duration-1000 delay-300 animate__animated animate__fadeIn animate__delay-1s" style={{ color: "#ffa100" }}>
+          <h3 className="text-3xl font-bold opacity-0 translate-y-8 transition-all duration-1000 delay-300 animate__animated animate__fadeIn animate__delay-1s" style={{ color: "#ffcf00" }}>
             <span className="counter" data-target="100">+100</span> Clientes Atendidos
           </h3>
         </div>
         <div className="mb-6 md:mb-0">
-          <h3 className="text-3xl font-bold opacity-0 translate-y-8 transition-all duration-1000 delay-500 animate__animated animate__fadeIn animate__delay-2s" style={{ color: "#ffa100" }}>
+          <h3 className="text-3xl font-bold opacity-0 translate-y-8 transition-all duration-1000 delay-500 animate__animated animate__fadeIn animate__delay-2s" style={{ color: "#ffcf00" }}>
             <span className="counter" data-target="50000">+5</span> Anos de Experiência
           </h3>
         </div>
@@ -222,8 +222,8 @@ const HomePage = () => {
           <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
           Entre em contato conosco para uma consulta gratuita!
           </p>
-          <Link 
-            to="/contact" 
+          <Link target='blank'
+            to="https://api.whatsapp.com/send/?phone=5577991488220&text=Ol%C3%A1%2C+tudo+bem%3F&type=phone_number&app_absent=0" 
             className="inline-block px-8 py-3 border-2 border-white hover:bg-white hover:text-black transition-all duration-300"
           >
             Falar com um Especialista
